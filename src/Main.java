@@ -7,9 +7,7 @@ public class Main {
         boolean negativeNumber = false;
 
         for (double number : numbers) {
-            if (negativeNumber && number < 0) {
-                break;
-            }else if (negativeNumber && number > 0) {
+            if (negativeNumber && number > 0) {
                     result += number;
                     quantity++;
             }else if (number < 0) {
